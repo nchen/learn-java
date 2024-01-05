@@ -24,3 +24,11 @@ curl http://localhost:8080/greeting
 ## Other tutorials to explore
 
 <https://spring.io/projects/spring-boot/#learn>
+
+## TODO
+
+[ ] Containerize.
+[ ] Load test with K6.
+[ ] Setup prometheus client (or other metrics client) + Grafana.
+[ ] Observe some key metrics of a Java application, 
+    like GC, latency, number of connections etc.
