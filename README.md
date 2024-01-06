@@ -19,16 +19,20 @@ To verify:
 
 ```shell
 curl http://localhost:8080/greeting
+
+ab -c 50 -n 5000 http://localhost:8080/greeting
 ```
 
 ## Other tutorials to explore
 
 <https://spring.io/projects/spring-boot/#learn>
 
+<https://spring.io/guides/topicals/spring-boot-docker/>
+
 ## TODO
 
-- [ ] Containerize.
-- [ ] Load test with K6.
+- [x] Containerize.
+- [ ] Load test (probably with K6 or ab).
 - [ ] Setup prometheus client (or other metrics client) + Grafana.
 - [ ] Observe some key metrics of a Java application, 
     like GC, latency, number of connections etc.
