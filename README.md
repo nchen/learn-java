@@ -21,6 +21,8 @@ To verify:
 curl http://localhost:8080/greeting
 
 ab -c 50 -n 5000 http://localhost:8080/greeting
+
+k6 run ./api-test.js
 ```
 
 ## Other tutorials to explore
