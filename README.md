@@ -34,7 +34,7 @@ k6 run ./api-test.js
 ## TODO
 
 - [x] Containerize.
-- [ ] Load test (probably with K6 or ab).
+- [x] Load test (probably with K6 or ab).
 - [ ] Setup prometheus client (or other metrics client) + Grafana.
 - [ ] Observe some key metrics of a Java application, 
     like GC, latency, number of connections etc.
